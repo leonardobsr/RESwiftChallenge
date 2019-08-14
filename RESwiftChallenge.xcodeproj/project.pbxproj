@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		19D4172923049A2600D91A18 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D4172823049A2600D91A18 /* AppReducer.swift */; };
 		19D4172D23049D4D00D91A18 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D4172C23049D4D00D91A18 /* AppState.swift */; };
+		1F521AF42304A4A8002D678B /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F521AF32304A4A8002D678B /* AppAction.swift */; };
 		1F6262EA2304830400CE5E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6262E92304830400CE5E70 /* AppDelegate.swift */; };
 		1F6262EC2304830400CE5E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6262EB2304830400CE5E70 /* ViewController.swift */; };
 		1F6262EF2304830400CE5E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6262ED2304830400CE5E70 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		19D4172823049A2600D91A18 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		19D4172C23049D4D00D91A18 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		1F521AF32304A4A8002D678B /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = SOURCE_ROOT; };
 		1F6262E62304830400CE5E70 /* RESwiftChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESwiftChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6262E92304830400CE5E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F6262EB2304830400CE5E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		19D4172E23049D9D00D91A18 /* Actions */ = {
 			isa = PBXGroup;
 			children = (
+				1F521AF32304A4A8002D678B /* AppAction.swift */,
 			);
 			path = Actions;
 			sourceTree = "<group>";
@@ -339,16 +342,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -363,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F6262EC2304830400CE5E70 /* ViewController.swift in Sources */,
+				1F521AF42304A4A8002D678B /* AppAction.swift in Sources */,
 				19D4172D23049D4D00D91A18 /* AppState.swift in Sources */,
 				1F6262EA2304830400CE5E70 /* AppDelegate.swift in Sources */,
 				19D4172923049A2600D91A18 /* AppReducer.swift in Sources */,

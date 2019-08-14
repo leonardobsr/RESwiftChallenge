@@ -9,12 +9,6 @@
 import Foundation
 import ReSwift
 
-struct AppReducer : Reducer<ReducerStateType> {
-    func handleAction(action: Action, state: AppState?) -> AppState {
-        return AppState(
-//            favoritesState: FavoriteReducer().handleAction(action: action, state: state?.favoritesState),
-//            fetchedCharactersState: FetchedCharactersReducer(apiManager: apiManager)
-//                .handleAction(action: action, state: state?.fetchedCharactersState)
-        )
-    }
+func AppReducer(action: Action, state: AppState?) -> AppState {
+    return AppState()
 }
