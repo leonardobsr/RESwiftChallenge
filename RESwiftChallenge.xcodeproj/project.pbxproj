@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19D4172923049A2600D91A18 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D4172823049A2600D91A18 /* AppReducer.swift */; };
+		19D4172D23049D4D00D91A18 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D4172C23049D4D00D91A18 /* AppState.swift */; };
 		1F6262EA2304830400CE5E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6262E92304830400CE5E70 /* AppDelegate.swift */; };
 		1F6262EC2304830400CE5E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6262EB2304830400CE5E70 /* ViewController.swift */; };
 		1F6262EF2304830400CE5E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6262ED2304830400CE5E70 /* Main.storyboard */; };
@@ -15,7 +17,7 @@
 		1F6262F72304830500CE5E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6262F52304830500CE5E70 /* LaunchScreen.storyboard */; };
 		1F6263022304830600CE5E70 /* RESwiftChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6263012304830600CE5E70 /* RESwiftChallengeTests.swift */; };
 		1F62630D2304830600CE5E70 /* RESwiftChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F62630C2304830600CE5E70 /* RESwiftChallengeUITests.swift */; };
-		88AC10744E49A7B08CD82C59 /* Pods_RESwiftChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C63C401D769F29846C3FB792 /* Pods_RESwiftChallenge.framework */; };
+		8F3A6C4FA59C5905D64424E8 /* Pods_RESwiftChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221C92DB797D7FF21784D432 /* Pods_RESwiftChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19D4172823049A2600D91A18 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		19D4172C23049D4D00D91A18 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		1F6262E62304830400CE5E70 /* RESwiftChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESwiftChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6262E92304830400CE5E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F6262EB2304830400CE5E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,9 +54,9 @@
 		1F6263082304830600CE5E70 /* RESwiftChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESwiftChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F62630C2304830600CE5E70 /* RESwiftChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESwiftChallengeUITests.swift; sourceTree = "<group>"; };
 		1F62630E2304830600CE5E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F60C78BD0EDADBCBB2D5542 /* Pods-RESwiftChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		C63C401D769F29846C3FB792 /* Pods_RESwiftChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESwiftChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D20583946516F61753C3D6FB /* Pods-RESwiftChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.release.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		221C92DB797D7FF21784D432 /* Pods_RESwiftChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESwiftChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6972BD66DC9957E8384849F /* Pods-RESwiftChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		AACAE908A94A66DCCF15C7F3 /* Pods-RESwiftChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.release.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88AC10744E49A7B08CD82C59 /* Pods_RESwiftChallenge.framework in Frameworks */,
+				8F3A6C4FA59C5905D64424E8 /* Pods_RESwiftChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +85,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19D4172A23049CA800D91A18 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				19D4172823049A2600D91A18 /* AppReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		19D4172B23049D4100D91A18 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				19D4172C23049D4D00D91A18 /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		19D4172E23049D9D00D91A18 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
 		1F6262DD2304830400CE5E70 = {
 			isa = PBXGroup;
 			children = (
@@ -89,7 +116,7 @@
 				1F62630B2304830600CE5E70 /* RESwiftChallengeUITests */,
 				1F6262E72304830400CE5E70 /* Products */,
 				DCAAC5CB853E0C5E50F0E130 /* Pods */,
-				DC4642D2389D158B8BAF532E /* Frameworks */,
+				FC6A89EF0BBE09DF101A0B67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +133,9 @@
 		1F6262E82304830400CE5E70 /* RESwiftChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				19D4172E23049D9D00D91A18 /* Actions */,
+				19D4172B23049D4100D91A18 /* State */,
+				19D4172A23049CA800D91A18 /* Reducers */,
 				1F6262E92304830400CE5E70 /* AppDelegate.swift */,
 				1F6262EB2304830400CE5E70 /* ViewController.swift */,
 				1F6262ED2304830400CE5E70 /* Main.storyboard */,
@@ -135,21 +165,21 @@
 			path = RESwiftChallengeUITests;
 			sourceTree = "<group>";
 		};
-		DC4642D2389D158B8BAF532E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C63C401D769F29846C3FB792 /* Pods_RESwiftChallenge.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		DCAAC5CB853E0C5E50F0E130 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2F60C78BD0EDADBCBB2D5542 /* Pods-RESwiftChallenge.debug.xcconfig */,
-				D20583946516F61753C3D6FB /* Pods-RESwiftChallenge.release.xcconfig */,
+				A6972BD66DC9957E8384849F /* Pods-RESwiftChallenge.debug.xcconfig */,
+				AACAE908A94A66DCCF15C7F3 /* Pods-RESwiftChallenge.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC6A89EF0BBE09DF101A0B67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				221C92DB797D7FF21784D432 /* Pods_RESwiftChallenge.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,11 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F6263112304830600CE5E70 /* Build configuration list for PBXNativeTarget "RESwiftChallenge" */;
 			buildPhases = (
-				DEC28809383D62EE64F9D091 /* [CP] Check Pods Manifest.lock */,
+				0B5F60ED28D8DA70752FFAE8 /* [CP] Check Pods Manifest.lock */,
 				1F6262E22304830400CE5E70 /* Sources */,
 				1F6262E32304830400CE5E70 /* Frameworks */,
 				1F6262E42304830400CE5E70 /* Resources */,
-				6E656318BB186EF76D5E86C6 /* [CP] Embed Pods Frameworks */,
+				B8144E8E0CBD59C07CA03609 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -281,24 +311,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6E656318BB186EF76D5E86C6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DEC28809383D62EE64F9D091 /* [CP] Check Pods Manifest.lock */ = {
+		0B5F60ED28D8DA70752FFAE8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,6 +333,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B8144E8E0CBD59C07CA03609 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -328,7 +363,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F6262EC2304830400CE5E70 /* ViewController.swift in Sources */,
+				19D4172D23049D4D00D91A18 /* AppState.swift in Sources */,
 				1F6262EA2304830400CE5E70 /* AppDelegate.swift in Sources */,
+				19D4172923049A2600D91A18 /* AppReducer.swift in Sources */,
 				1F6262F22304830400CE5E70 /* RESwiftChallenge.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,7 +539,7 @@
 		};
 		1F6263122304830600CE5E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F60C78BD0EDADBCBB2D5542 /* Pods-RESwiftChallenge.debug.xcconfig */;
+			baseConfigurationReference = A6972BD66DC9957E8384849F /* Pods-RESwiftChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,7 +559,7 @@
 		};
 		1F6263132304830600CE5E70 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D20583946516F61753C3D6FB /* Pods-RESwiftChallenge.release.xcconfig */;
+			baseConfigurationReference = AACAE908A94A66DCCF15C7F3 /* Pods-RESwiftChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -8,8 +8,16 @@
 
 import UIKit
 import CoreData
+import ReSwift
+
+let mainStore = Store<AppState>(
+    reducer: AppReducer(),
+    state: nil,
+    middleware: []
+)
 
 @UIApplicationMain
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
