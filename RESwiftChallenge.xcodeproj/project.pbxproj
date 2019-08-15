@@ -9,16 +9,19 @@
 /* Begin PBXBuildFile section */
 		19D4172923049A2600D91A18 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D4172823049A2600D91A18 /* AppReducer.swift */; };
 		19D4172D23049D4D00D91A18 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D4172C23049D4D00D91A18 /* AppState.swift */; };
+		19FF3E8F2305EB9600B31285 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF3E8E2305EB9600B31285 /* AppRouter.swift */; };
+		19FF3E912305EC2700B31285 /* RoutingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF3E902305EC2700B31285 /* RoutingState.swift */; };
+		19FF3E932305ECDB00B31285 /* RoutingReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FF3E922305ECDB00B31285 /* RoutingReducer.swift */; };
 		1F521AF42304A4A8002D678B /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F521AF32304A4A8002D678B /* AppAction.swift */; };
 		1F6262EA2304830400CE5E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6262E92304830400CE5E70 /* AppDelegate.swift */; };
-		1F6262EC2304830400CE5E70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6262EB2304830400CE5E70 /* ViewController.swift */; };
+		1F6262EC2304830400CE5E70 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6262EB2304830400CE5E70 /* ListViewController.swift */; };
 		1F6262EF2304830400CE5E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6262ED2304830400CE5E70 /* Main.storyboard */; };
 		1F6262F22304830400CE5E70 /* RESwiftChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F6262F02304830400CE5E70 /* RESwiftChallenge.xcdatamodeld */; };
 		1F6262F42304830500CE5E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6262F32304830500CE5E70 /* Assets.xcassets */; };
 		1F6262F72304830500CE5E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6262F52304830500CE5E70 /* LaunchScreen.storyboard */; };
 		1F6263022304830600CE5E70 /* RESwiftChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6263012304830600CE5E70 /* RESwiftChallengeTests.swift */; };
 		1F62630D2304830600CE5E70 /* RESwiftChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F62630C2304830600CE5E70 /* RESwiftChallengeUITests.swift */; };
-		8F3A6C4FA59C5905D64424E8 /* Pods_RESwiftChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221C92DB797D7FF21784D432 /* Pods_RESwiftChallenge.framework */; };
+		ED4BA30C595276D2C865B07A /* Pods_RESwiftChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AAB701431B4C6613B2B121 /* Pods_RESwiftChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +44,13 @@
 /* Begin PBXFileReference section */
 		19D4172823049A2600D91A18 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		19D4172C23049D4D00D91A18 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		19FF3E8E2305EB9600B31285 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		19FF3E902305EC2700B31285 /* RoutingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingState.swift; sourceTree = "<group>"; };
+		19FF3E922305ECDB00B31285 /* RoutingReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingReducer.swift; sourceTree = "<group>"; };
 		1F521AF32304A4A8002D678B /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = SOURCE_ROOT; };
 		1F6262E62304830400CE5E70 /* RESwiftChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESwiftChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6262E92304830400CE5E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F6262EB2304830400CE5E70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F6262EB2304830400CE5E70 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		1F6262EE2304830400CE5E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F6262F12304830400CE5E70 /* RESwiftChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RESwiftChallenge.xcdatamodel; sourceTree = "<group>"; };
 		1F6262F32304830500CE5E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,9 +62,9 @@
 		1F6263082304830600CE5E70 /* RESwiftChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESwiftChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F62630C2304830600CE5E70 /* RESwiftChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESwiftChallengeUITests.swift; sourceTree = "<group>"; };
 		1F62630E2304830600CE5E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		221C92DB797D7FF21784D432 /* Pods_RESwiftChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESwiftChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6972BD66DC9957E8384849F /* Pods-RESwiftChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		AACAE908A94A66DCCF15C7F3 /* Pods-RESwiftChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.release.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		37AAB701431B4C6613B2B121 /* Pods_RESwiftChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESwiftChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF53964B0E5D7C2A204E049 /* Pods-RESwiftChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		7CF4FC4079F4AC44579864BB /* Pods-RESwiftChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.release.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F3A6C4FA59C5905D64424E8 /* Pods_RESwiftChallenge.framework in Frameworks */,
+				ED4BA30C595276D2C865B07A /* Pods_RESwiftChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				19D4172823049A2600D91A18 /* AppReducer.swift */,
+				19FF3E922305ECDB00B31285 /* RoutingReducer.swift */,
 			);
 			path = Reducers;
 			sourceTree = "<group>";
@@ -99,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				19D4172C23049D4D00D91A18 /* AppState.swift */,
+				19FF3E902305EC2700B31285 /* RoutingState.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -111,6 +119,14 @@
 			path = Actions;
 			sourceTree = "<group>";
 		};
+		1D44C4C268C5905272A3F201 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37AAB701431B4C6613B2B121 /* Pods_RESwiftChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1F6262DD2304830400CE5E70 = {
 			isa = PBXGroup;
 			children = (
@@ -119,7 +135,7 @@
 				1F62630B2304830600CE5E70 /* RESwiftChallengeUITests */,
 				1F6262E72304830400CE5E70 /* Products */,
 				DCAAC5CB853E0C5E50F0E130 /* Pods */,
-				FC6A89EF0BBE09DF101A0B67 /* Frameworks */,
+				1D44C4C268C5905272A3F201 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,7 +156,8 @@
 				19D4172B23049D4100D91A18 /* State */,
 				19D4172A23049CA800D91A18 /* Reducers */,
 				1F6262E92304830400CE5E70 /* AppDelegate.swift */,
-				1F6262EB2304830400CE5E70 /* ViewController.swift */,
+				19FF3E8E2305EB9600B31285 /* AppRouter.swift */,
+				1F6262EB2304830400CE5E70 /* ListViewController.swift */,
 				1F6262ED2304830400CE5E70 /* Main.storyboard */,
 				1F6262F32304830500CE5E70 /* Assets.xcassets */,
 				1F6262F52304830500CE5E70 /* LaunchScreen.storyboard */,
@@ -171,18 +188,10 @@
 		DCAAC5CB853E0C5E50F0E130 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A6972BD66DC9957E8384849F /* Pods-RESwiftChallenge.debug.xcconfig */,
-				AACAE908A94A66DCCF15C7F3 /* Pods-RESwiftChallenge.release.xcconfig */,
+				5BF53964B0E5D7C2A204E049 /* Pods-RESwiftChallenge.debug.xcconfig */,
+				7CF4FC4079F4AC44579864BB /* Pods-RESwiftChallenge.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		FC6A89EF0BBE09DF101A0B67 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				221C92DB797D7FF21784D432 /* Pods_RESwiftChallenge.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,11 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F6263112304830600CE5E70 /* Build configuration list for PBXNativeTarget "RESwiftChallenge" */;
 			buildPhases = (
-				0B5F60ED28D8DA70752FFAE8 /* [CP] Check Pods Manifest.lock */,
+				4DFB48C21ADFA5B508EC9065 /* [CP] Check Pods Manifest.lock */,
 				1F6262E22304830400CE5E70 /* Sources */,
 				1F6262E32304830400CE5E70 /* Frameworks */,
 				1F6262E42304830400CE5E70 /* Resources */,
-				B8144E8E0CBD59C07CA03609 /* [CP] Embed Pods Frameworks */,
+				F03DA5B0814ADA003330340E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -314,7 +323,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0B5F60ED28D8DA70752FFAE8 /* [CP] Check Pods Manifest.lock */ = {
+		4DFB48C21ADFA5B508EC9065 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,17 +345,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B8144E8E0CBD59C07CA03609 /* [CP] Embed Pods Frameworks */ = {
+		F03DA5B0814ADA003330340E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -360,11 +374,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F6262EC2304830400CE5E70 /* ViewController.swift in Sources */,
+				1F6262EC2304830400CE5E70 /* ListViewController.swift in Sources */,
 				1F521AF42304A4A8002D678B /* AppAction.swift in Sources */,
 				19D4172D23049D4D00D91A18 /* AppState.swift in Sources */,
 				1F6262EA2304830400CE5E70 /* AppDelegate.swift in Sources */,
+				19FF3E8F2305EB9600B31285 /* AppRouter.swift in Sources */,
 				19D4172923049A2600D91A18 /* AppReducer.swift in Sources */,
+				19FF3E912305EC2700B31285 /* RoutingState.swift in Sources */,
+				19FF3E932305ECDB00B31285 /* RoutingReducer.swift in Sources */,
 				1F6262F22304830400CE5E70 /* RESwiftChallenge.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,7 +555,7 @@
 		};
 		1F6263122304830600CE5E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6972BD66DC9957E8384849F /* Pods-RESwiftChallenge.debug.xcconfig */;
+			baseConfigurationReference = 5BF53964B0E5D7C2A204E049 /* Pods-RESwiftChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,7 +575,7 @@
 		};
 		1F6263132304830600CE5E70 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AACAE908A94A66DCCF15C7F3 /* Pods-RESwiftChallenge.release.xcconfig */;
+			baseConfigurationReference = 7CF4FC4079F4AC44579864BB /* Pods-RESwiftChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

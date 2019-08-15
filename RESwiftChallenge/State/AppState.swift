@@ -8,4 +8,6 @@
 
 import ReSwift
  
-struct AppState: StateType {}
+struct AppState: StateType {
+    let routingState: RoutingState
+}
