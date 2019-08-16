@@ -21,16 +21,12 @@
 		1F6262F72304830500CE5E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6262F52304830500CE5E70 /* LaunchScreen.storyboard */; };
 		1F6263022304830600CE5E70 /* RESwiftChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6263012304830600CE5E70 /* RESwiftChallengeTests.swift */; };
 		1F62630D2304830600CE5E70 /* RESwiftChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F62630C2304830600CE5E70 /* RESwiftChallengeUITests.swift */; };
-<<<<<<< HEAD
-		1F9DC3E723071D86009A79D8 /* MovieImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9DC3E623071D86009A79D8 /* MovieImageView.xib */; };
-		1F9DC3E923071DB6009A79D8 /* MovieImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DC3E823071DB6009A79D8 /* MovieImageView.swift */; };
-		ED4BA30C595276D2C865B07A /* Pods_RESwiftChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AAB701431B4C6613B2B121 /* Pods_RESwiftChallenge.framework */; };
-=======
 		1F96AB392305EFDB00D43605 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96AB382305EFDB00D43605 /* API.swift */; };
 		1F96AB3B2305F04400D43605 /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96AB3A2305F04400D43605 /* CodableExtension.swift */; };
 		1F96AB3D2305F0B500D43605 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96AB3C2305F0B500D43605 /* Tools.swift */; };
-		8F3A6C4FA59C5905D64424E8 /* Pods_RESwiftChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221C92DB797D7FF21784D432 /* Pods_RESwiftChallenge.framework */; };
->>>>>>> api
+		1F9DC3E723071D86009A79D8 /* MovieImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9DC3E623071D86009A79D8 /* MovieImageView.xib */; };
+		1F9DC3E923071DB6009A79D8 /* MovieImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DC3E823071DB6009A79D8 /* MovieImageView.swift */; };
+		61A0B427214E1B0E54E3B195 /* Pods_RESwiftChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CBA211EA5EDE02C362C983 /* Pods_RESwiftChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09CBA211EA5EDE02C362C983 /* Pods_RESwiftChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESwiftChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D4172823049A2600D91A18 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		19D4172C23049D4D00D91A18 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		19FF3E8E2305EB9600B31285 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
@@ -71,20 +68,13 @@
 		1F6263082304830600CE5E70 /* RESwiftChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESwiftChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F62630C2304830600CE5E70 /* RESwiftChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESwiftChallengeUITests.swift; sourceTree = "<group>"; };
 		1F62630E2304830600CE5E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		1F9DC3E623071D86009A79D8 /* MovieImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieImageView.xib; sourceTree = "<group>"; };
-		1F9DC3E823071DB6009A79D8 /* MovieImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieImageView.swift; sourceTree = "<group>"; };
-		37AAB701431B4C6613B2B121 /* Pods_RESwiftChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESwiftChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BF53964B0E5D7C2A204E049 /* Pods-RESwiftChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		7CF4FC4079F4AC44579864BB /* Pods-RESwiftChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.release.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.release.xcconfig"; sourceTree = "<group>"; };
-=======
 		1F96AB382305EFDB00D43605 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		1F96AB3A2305F04400D43605 /* CodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
 		1F96AB3C2305F0B500D43605 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
-		221C92DB797D7FF21784D432 /* Pods_RESwiftChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESwiftChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6972BD66DC9957E8384849F /* Pods-RESwiftChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		AACAE908A94A66DCCF15C7F3 /* Pods-RESwiftChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.release.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.release.xcconfig"; sourceTree = "<group>"; };
->>>>>>> api
+		1F9DC3E623071D86009A79D8 /* MovieImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieImageView.xib; sourceTree = "<group>"; };
+		1F9DC3E823071DB6009A79D8 /* MovieImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieImageView.swift; sourceTree = "<group>"; };
+		8A94E81EBAB856641A5983D1 /* Pods-RESwiftChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		E43C0CA9E207D73FA4CF22BF /* Pods-RESwiftChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.release.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED4BA30C595276D2C865B07A /* Pods_RESwiftChallenge.framework in Frameworks */,
+				61A0B427214E1B0E54E3B195 /* Pods_RESwiftChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +132,7 @@
 		1D44C4C268C5905272A3F201 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				37AAB701431B4C6613B2B121 /* Pods_RESwiftChallenge.framework */,
+				09CBA211EA5EDE02C362C983 /* Pods_RESwiftChallenge.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,11 +162,8 @@
 		1F6262E82304830400CE5E70 /* RESwiftChallenge */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				1F9DC3E423071CF3009A79D8 /* Xibs */,
-=======
 				1F96AB372305EFC500D43605 /* Utils */,
->>>>>>> api
 				19D4172E23049D9D00D91A18 /* Actions */,
 				19D4172B23049D4100D91A18 /* State */,
 				19D4172A23049CA800D91A18 /* Reducers */,
@@ -210,9 +197,6 @@
 			path = RESwiftChallengeUITests;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-		1F9DC3E423071CF3009A79D8 /* Xibs */ = {
-=======
 		1F96AB372305EFC500D43605 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,8 +207,7 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		DCAAC5CB853E0C5E50F0E130 /* Pods */ = {
->>>>>>> api
+		1F9DC3E423071CF3009A79D8 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
 				1F9DC3E523071D09009A79D8 /* MovieImage */,
@@ -244,8 +227,8 @@
 		DCAAC5CB853E0C5E50F0E130 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5BF53964B0E5D7C2A204E049 /* Pods-RESwiftChallenge.debug.xcconfig */,
-				7CF4FC4079F4AC44579864BB /* Pods-RESwiftChallenge.release.xcconfig */,
+				8A94E81EBAB856641A5983D1 /* Pods-RESwiftChallenge.debug.xcconfig */,
+				E43C0CA9E207D73FA4CF22BF /* Pods-RESwiftChallenge.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -408,16 +391,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -431,24 +409,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				1F6262EC2304830400CE5E70 /* ListViewController.swift in Sources */,
 				1F9DC3E923071DB6009A79D8 /* MovieImageView.swift in Sources */,
-=======
 				1F96AB3B2305F04400D43605 /* CodableExtension.swift in Sources */,
-				1F6262EC2304830400CE5E70 /* ViewController.swift in Sources */,
->>>>>>> api
+				1F6262EC2304830400CE5E70 /* ListViewController.swift in Sources */,
 				1F521AF42304A4A8002D678B /* AppAction.swift in Sources */,
 				19D4172D23049D4D00D91A18 /* AppState.swift in Sources */,
 				1F6262EA2304830400CE5E70 /* AppDelegate.swift in Sources */,
 				19FF3E8F2305EB9600B31285 /* AppRouter.swift in Sources */,
 				19D4172923049A2600D91A18 /* AppReducer.swift in Sources */,
-<<<<<<< HEAD
 				19FF3E912305EC2700B31285 /* RoutingState.swift in Sources */,
 				19FF3E932305ECDB00B31285 /* RoutingReducer.swift in Sources */,
-=======
 				1F96AB3D2305F0B500D43605 /* Tools.swift in Sources */,
->>>>>>> api
 				1F6262F22304830400CE5E70 /* RESwiftChallenge.xcdatamodeld in Sources */,
 				1F96AB392305EFDB00D43605 /* API.swift in Sources */,
 			);
@@ -492,6 +464,7 @@
 				1F6262EE2304830400CE5E70 /* Base */,
 			);
 			name = Main.storyboard;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		1F6262F52304830500CE5E70 /* LaunchScreen.storyboard */ = {
@@ -500,6 +473,7 @@
 				1F6262F62304830500CE5E70 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -623,7 +597,7 @@
 		};
 		1F6263122304830600CE5E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BF53964B0E5D7C2A204E049 /* Pods-RESwiftChallenge.debug.xcconfig */;
+			baseConfigurationReference = 8A94E81EBAB856641A5983D1 /* Pods-RESwiftChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -643,7 +617,7 @@
 		};
 		1F6263132304830600CE5E70 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CF4FC4079F4AC44579864BB /* Pods-RESwiftChallenge.release.xcconfig */;
+			baseConfigurationReference = E43C0CA9E207D73FA4CF22BF /* Pods-RESwiftChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

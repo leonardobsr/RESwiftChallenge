@@ -18,8 +18,8 @@ class MovieImageView: UIView {
     }
     */
     
-    internal var view: UIView!
-    @IBOutlet weak internal var ImageVIew: UIImageView!
+    @IBOutlet weak internal var view: UIView!
+    @IBOutlet weak internal var image: UIImageView!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -32,22 +32,14 @@ class MovieImageView: UIView {
     }
     
     func xibSetup() {
-        view = loadViewFromNib()
-        view.backgroundColor = .white
+        Bundle.main.loadNibNamed("MovieImageView", owner: self, options: nil)
+        view.backgroundColor = .black
         view.frame = bounds
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        
-        //    view.layer.cornerRadius = 10
+        view.layer.cornerRadius = 10
+        view.clipsToBounds = true
         
         addSubview(view)
-    }
-    
-    func loadViewFromNib() -> UIView {
-        let bundle = Bundle(for: type(of: self))
-        let nib = UINib(nibName: "MovieImageView", bundle: bundle)
-        let view = nib.instantiate(withOwner: self, options: nil).first as! UIView
-        
-        return view
     }
 
 }
