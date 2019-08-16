@@ -18,8 +18,8 @@ class MovieImageView: UIView {
     }
     */
     
-    @IBOutlet weak internal var view: UIView!
-    @IBOutlet weak internal var image: UIImageView!
+    @IBOutlet weak private var view: UIView!
+    @IBOutlet weak private var image: UIImageView!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -40,6 +40,10 @@ class MovieImageView: UIView {
         view.clipsToBounds = true
         
         addSubview(view)
+    }
+    
+    func setImage(url: String!) {
+        image.setImage(url)
     }
 
 }
