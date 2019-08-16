@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MovieImageView" customModule="RESwiftChallenge" customModuleProvider="target">
+            <connections>
+                <outlet property="image" destination="LKo-3W-dwr" id="HXd-G8-kLi"/>
+                <outlet property="view" destination="iN0-l3-epB" id="iVK-Ri-aiR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="227" height="344"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LKo-3W-dwr">
+                    <rect key="frame" x="0.0" y="0.0" width="227" height="344"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LKo-3W-dwr" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="3LN-q4-u7H"/>
+                <constraint firstItem="LKo-3W-dwr" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="F6W-xM-Jx1"/>
+                <constraint firstItem="LKo-3W-dwr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Hsf-eK-RY4"/>
+                <constraint firstAttribute="bottom" secondItem="LKo-3W-dwr" secondAttribute="bottom" id="keh-US-qxF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-87.681159420289859" y="-149.33035714285714"/>
+        </view>
+    </objects>
+</document>
