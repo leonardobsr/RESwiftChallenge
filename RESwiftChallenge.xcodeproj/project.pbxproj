@@ -21,6 +21,7 @@
 		1F6262F72304830500CE5E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6262F52304830500CE5E70 /* LaunchScreen.storyboard */; };
 		1F6263022304830600CE5E70 /* RESwiftChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6263012304830600CE5E70 /* RESwiftChallengeTests.swift */; };
 		1F62630D2304830600CE5E70 /* RESwiftChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F62630C2304830600CE5E70 /* RESwiftChallengeUITests.swift */; };
+		1F8799B7230B2CC7005C4367 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8799B6230B2CC7005C4367 /* Movie.swift */; };
 		1F96AB392305EFDB00D43605 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96AB382305EFDB00D43605 /* API.swift */; };
 		1F96AB3B2305F04400D43605 /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96AB3A2305F04400D43605 /* CodableExtension.swift */; };
 		1F96AB3D2305F0B500D43605 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96AB3C2305F0B500D43605 /* Tools.swift */; };
@@ -70,6 +71,9 @@
 		1F6263082304830600CE5E70 /* RESwiftChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESwiftChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F62630C2304830600CE5E70 /* RESwiftChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESwiftChallengeUITests.swift; sourceTree = "<group>"; };
 		1F62630E2304830600CE5E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8799AD230B2990005C4367 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8799AF230B2997005C4367 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8799B6230B2CC7005C4367 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		1F96AB382305EFDB00D43605 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		1F96AB3A2305F04400D43605 /* CodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
 		1F96AB3C2305F0B500D43605 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 		1D44C4C268C5905272A3F201 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F8799AF230B2997005C4367 /* Kingfisher.framework */,
+				1F8799AD230B2990005C4367 /* Alamofire.framework */,
 				09CBA211EA5EDE02C362C983 /* Pods_RESwiftChallenge.framework */,
 			);
 			name = Frameworks;
@@ -166,6 +172,7 @@
 		1F6262E82304830400CE5E70 /* RESwiftChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				1F8799B5230B2CAA005C4367 /* Models */,
 				1F9DC3E423071CF3009A79D8 /* Xibs */,
 				1F96AB372305EFC500D43605 /* Utils */,
 				19D4172E23049D9D00D91A18 /* Actions */,
@@ -199,6 +206,14 @@
 				1F62630E2304830600CE5E70 /* Info.plist */,
 			);
 			path = RESwiftChallengeUITests;
+			sourceTree = "<group>";
+		};
+		1F8799B5230B2CAA005C4367 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F8799B6230B2CC7005C4367 /* Movie.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		1F96AB372305EFC500D43605 /* Utils */ = {
@@ -430,6 +445,7 @@
 				1F6262EC2304830400CE5E70 /* ListViewController.swift in Sources */,
 				1F521AF42304A4A8002D678B /* AppAction.swift in Sources */,
 				19D4172D23049D4D00D91A18 /* AppState.swift in Sources */,
+				1F8799B7230B2CC7005C4367 /* Movie.swift in Sources */,
 				1F6262EA2304830400CE5E70 /* AppDelegate.swift in Sources */,
 				19FF3E8F2305EB9600B31285 /* AppRouter.swift in Sources */,
 				19D4172923049A2600D91A18 /* AppReducer.swift in Sources */,
