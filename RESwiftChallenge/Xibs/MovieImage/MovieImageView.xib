@@ -12,8 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MovieImageView" customModule="RESwiftChallenge" customModuleProvider="target">
             <connections>
-                <outlet property="image" destination="LKo-3W-dwr" id="HXd-G8-kLi"/>
-                <outlet property="view" destination="iN0-l3-epB" id="iVK-Ri-aiR"/>
+                <outlet property="image" destination="LKo-3W-dwr" id="DKY-Bj-dsa"/>
+                <outlet property="view" destination="iN0-l3-epB" id="4uG-Eg-5gF"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StarView" customModule="RESwiftChallenge" customModuleProvider="target">
+            <connections>
+                <outlet property="ratingBtn" destination="Nm6-Ms-fjb" id="Jxe-Pg-nhe"/>
+                <outlet property="view" destination="iN0-l3-epB" id="rfX-N6-wjL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="137" height="69"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nm6-Ms-fjb">
+                    <rect key="frame" x="0.0" y="0.0" width="137" height="69"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>
+                    <state key="normal" title="Rating" image="star_icon">
+                        <color key="titleColor" red="0.59215686274509804" green="0.59215686274509804" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Nm6-Ms-fjb" secondAttribute="bottom" id="ApX-v8-jN5"/>
+                <constraint firstItem="Nm6-Ms-fjb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="OR2-Q0-idh"/>
+                <constraint firstItem="Nm6-Ms-fjb" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="f5l-HW-6PC"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Nm6-Ms-fjb" secondAttribute="trailing" id="yrS-t9-Zft"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-71.739130434782609" y="-197.20982142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="star_icon" width="17" height="16.5"/>
+    </resources>
+</document>

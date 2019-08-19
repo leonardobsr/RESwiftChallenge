@@ -1,5 +1,5 @@
 //
-//  MovieImageView.swift
+//  StarsView.swift
 //  RESwiftChallenge
 //
 //  Created by Leonardo Reis on 16/08/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MovieImageView: UIView {
+class StarView: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.
@@ -19,7 +19,7 @@ class MovieImageView: UIView {
     */
     
     @IBOutlet weak var view: UIView!
-    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var ratingBtn: UIButton!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -32,18 +32,25 @@ class MovieImageView: UIView {
     }
     
     func xibSetup() {
-        Bundle.main.loadNibNamed("MovieImageView", owner: self, options: nil)
-        view.backgroundColor = .black
+        Bundle.main.loadNibNamed("StarView", owner: self, options: nil)
+        view.backgroundColor = .white
         view.frame = bounds
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        view.layer.cornerRadius = 10
-        view.clipsToBounds = true
+        isFavorite(false)
+        setRating("0,0")
         
         addSubview(view)
     }
     
-    func setImage(url: String!) {
-        image.setImage(url)
+    func isFavorite(_ state: Bool) {
+        let imageName = (state) ? "star_icon_colored.png" : "star_icon.png"
+        if let image = UIImage(named: imageName) {
+            ratingBtn.setImage(image, for: .normal)
+        }
+    }
+    
+    func setRating(_ rating: String!) {
+        ratingBtn.setTitle(rating, for: .normal)
     }
 
 }
