@@ -10,6 +10,7 @@ import Foundation
 import Alamofire
 
 enum Result<T> {
+    case loading
     case success(T)
     case failure(Error?)
 }
@@ -96,9 +97,7 @@ extension API {
                         } else if let results = result["results"] as? [JSON] {
                             objectData = results
                         }
-                        
-                        print(objectData)
-                        
+                                                
                         guard let obj = try? T.fromDictionary(objectData) else {
                             completion(.failure(nil))
                             return

@@ -10,14 +10,6 @@ import Foundation
 
 import ReSwift
 
-enum Result<T> {
-    case loading
-    case failed
-    case finished(T)
-}
-
-typealias Movie = Int
-
 struct PopularMoviesState: StateType {
     var movies: Result<[Movie]> = .loading
 }

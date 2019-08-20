@@ -10,6 +10,6 @@ import Foundation
 import ReSwift
 
 struct SetPopularMoviesAction: Action {
-    let movies: [Int]
+    let movies: [Movie]
 }
 

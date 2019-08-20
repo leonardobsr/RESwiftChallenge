@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		19347AA4230735B1007E36CD /* PopularMoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19347AA3230735B1007E36CD /* PopularMoviesView.swift */; };
 		19347AA623073E01007E36CD /* PopularMoviesState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19347AA523073E01007E36CD /* PopularMoviesState.swift */; };
 		19347AA823073E36007E36CD /* PopularMoviesReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19347AA723073E36007E36CD /* PopularMoviesReducer.swift */; };
+		193F1B06230C615B00DE5FCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193F1B05230C615B00DE5FCF /* Main.storyboard */; };
+		193F1B08230C61CA00DE5FCF /* Launchboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193F1B07230C61CA00DE5FCF /* Launchboard.storyboard */; };
 		19B5E0392307402200E86CCA /* TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B5E0372307402200E86CCA /* TableDataSource.swift */; };
 		19B5E03A2307402200E86CCA /* CollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B5E0382307402200E86CCA /* CollectionDataSource.swift */; };
 		19B5E03C230744F400E86CCA /* FetchPopularMoviesAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B5E03B230744F400E86CCA /* FetchPopularMoviesAction.swift */; };
@@ -26,10 +28,8 @@
 		1F521AF42304A4A8002D678B /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F521AF32304A4A8002D678B /* AppAction.swift */; };
 		1F6262EA2304830400CE5E70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6262E92304830400CE5E70 /* AppDelegate.swift */; };
 		1F6262EC2304830400CE5E70 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6262EB2304830400CE5E70 /* ListViewController.swift */; };
-		1F6262EF2304830400CE5E70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6262ED2304830400CE5E70 /* Main.storyboard */; };
 		1F6262F22304830400CE5E70 /* RESwiftChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F6262F02304830400CE5E70 /* RESwiftChallenge.xcdatamodeld */; };
 		1F6262F42304830500CE5E70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6262F32304830500CE5E70 /* Assets.xcassets */; };
-		1F6262F72304830500CE5E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6262F52304830500CE5E70 /* LaunchScreen.storyboard */; };
 		1F6263022304830600CE5E70 /* RESwiftChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6263012304830600CE5E70 /* RESwiftChallengeTests.swift */; };
 		1F62630D2304830600CE5E70 /* RESwiftChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F62630C2304830600CE5E70 /* RESwiftChallengeUITests.swift */; };
 		1F8799B7230B2CC7005C4367 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8799B6230B2CC7005C4367 /* Movie.swift */; };
@@ -42,7 +42,7 @@
 		1F9DC3E923071DB6009A79D8 /* MovieImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DC3E823071DB6009A79D8 /* MovieImageView.swift */; };
 		1FA7EE07230743F000BF90C2 /* StarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FA7EE06230743F000BF90C2 /* StarView.xib */; };
 		1FA7EE092307440700BF90C2 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7EE082307440700BF90C2 /* StarView.swift */; };
-		61A0B427214E1B0E54E3B195 /* Pods_RESwiftChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CBA211EA5EDE02C362C983 /* Pods_RESwiftChallenge.framework */; };
+		9F996F3E2D5C2CE78E207553 /* Pods_RESwiftChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82C7477D26DAA9AE5EF7F3F /* Pods_RESwiftChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,11 +70,12 @@
 		19347AA3230735B1007E36CD /* PopularMoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesView.swift; sourceTree = "<group>"; };
 		19347AA523073E01007E36CD /* PopularMoviesState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesState.swift; sourceTree = "<group>"; };
 		19347AA723073E36007E36CD /* PopularMoviesReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesReducer.swift; sourceTree = "<group>"; };
+		193F1B05230C615B00DE5FCF /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		193F1B07230C61CA00DE5FCF /* Launchboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launchboard.storyboard; sourceTree = "<group>"; };
 		19B5E0372307402200E86CCA /* TableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableDataSource.swift; sourceTree = "<group>"; };
 		19B5E0382307402200E86CCA /* CollectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDataSource.swift; sourceTree = "<group>"; };
 		19B5E03B230744F400E86CCA /* FetchPopularMoviesAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FetchPopularMoviesAction.swift; path = RESwiftChallenge/Reducers/FetchPopularMoviesAction.swift; sourceTree = SOURCE_ROOT; };
 		19B5E03D2307451B00E86CCA /* SetPopularMoviesAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetPopularMoviesAction.swift; path = RESwiftChallenge/Reducers/SetPopularMoviesAction.swift; sourceTree = SOURCE_ROOT; };
-		09CBA211EA5EDE02C362C983 /* Pods_RESwiftChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESwiftChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D4172823049A2600D91A18 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		19D4172C23049D4D00D91A18 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		19FF3E8E2305EB9600B31285 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
@@ -84,10 +85,8 @@
 		1F6262E62304830400CE5E70 /* RESwiftChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESwiftChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6262E92304830400CE5E70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F6262EB2304830400CE5E70 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		1F6262EE2304830400CE5E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F6262F12304830400CE5E70 /* RESwiftChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RESwiftChallenge.xcdatamodel; sourceTree = "<group>"; };
 		1F6262F32304830500CE5E70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F6262F62304830500CE5E70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F6262F82304830500CE5E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F6262FD2304830600CE5E70 /* RESwiftChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESwiftChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6263012304830600CE5E70 /* RESwiftChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESwiftChallengeTests.swift; sourceTree = "<group>"; };
@@ -107,8 +106,9 @@
 		1F9DC3E823071DB6009A79D8 /* MovieImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieImageView.swift; sourceTree = "<group>"; };
 		1FA7EE06230743F000BF90C2 /* StarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarView.xib; sourceTree = "<group>"; };
 		1FA7EE082307440700BF90C2 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
-		8A94E81EBAB856641A5983D1 /* Pods-RESwiftChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		E43C0CA9E207D73FA4CF22BF /* Pods-RESwiftChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.release.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		5070C31C7698AE6C3D66C949 /* Pods-RESwiftChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.release.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		8683A5FD498568B9D0AC30C3 /* Pods-RESwiftChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		F82C7477D26DAA9AE5EF7F3F /* Pods_RESwiftChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESwiftChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61A0B427214E1B0E54E3B195 /* Pods_RESwiftChallenge.framework in Frameworks */,
+				9F996F3E2D5C2CE78E207553 /* Pods_RESwiftChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,12 +140,12 @@
 		1955B54C23071ABC003BBD9B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1F6262ED2304830400CE5E70 /* Main.storyboard */,
-				1F6262F52304830500CE5E70 /* LaunchScreen.storyboard */,
 				19347A9D23073119007E36CD /* PopularMovieTableViewCell.swift */,
 				19347A9E23073119007E36CD /* PopularMovieTableViewCell.xib */,
 				19347AA123073553007E36CD /* PopularMoviesView.xib */,
 				19347AA3230735B1007E36CD /* PopularMoviesView.swift */,
+				193F1B05230C615B00DE5FCF /* Main.storyboard */,
+				193F1B07230C61CA00DE5FCF /* Launchboard.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 			children = (
 				1F8799AF230B2997005C4367 /* Kingfisher.framework */,
 				1F8799AD230B2990005C4367 /* Alamofire.framework */,
-				09CBA211EA5EDE02C362C983 /* Pods_RESwiftChallenge.framework */,
+				F82C7477D26DAA9AE5EF7F3F /* Pods_RESwiftChallenge.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -319,8 +319,8 @@
 		DCAAC5CB853E0C5E50F0E130 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8A94E81EBAB856641A5983D1 /* Pods-RESwiftChallenge.debug.xcconfig */,
-				E43C0CA9E207D73FA4CF22BF /* Pods-RESwiftChallenge.release.xcconfig */,
+				8683A5FD498568B9D0AC30C3 /* Pods-RESwiftChallenge.debug.xcconfig */,
+				5070C31C7698AE6C3D66C949 /* Pods-RESwiftChallenge.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -332,11 +332,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F6263112304830600CE5E70 /* Build configuration list for PBXNativeTarget "RESwiftChallenge" */;
 			buildPhases = (
-				4DFB48C21ADFA5B508EC9065 /* [CP] Check Pods Manifest.lock */,
+				816DC89CF78D807936F2C2D9 /* [CP] Check Pods Manifest.lock */,
 				1F6262E22304830400CE5E70 /* Sources */,
 				1F6262E32304830400CE5E70 /* Frameworks */,
 				1F6262E42304830400CE5E70 /* Resources */,
-				F03DA5B0814ADA003330340E /* [CP] Embed Pods Frameworks */,
+				315C282CB76739444648996A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -431,14 +431,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				193F1B08230C61CA00DE5FCF /* Launchboard.storyboard in Resources */,
 				19347AA023073119007E36CD /* PopularMovieTableViewCell.xib in Resources */,
+				193F1B06230C615B00DE5FCF /* Main.storyboard in Resources */,
 				1FA7EE07230743F000BF90C2 /* StarView.xib in Resources */,
-				1F6262F72304830500CE5E70 /* LaunchScreen.storyboard in Resources */,
 				1F9DC3E723071D86009A79D8 /* MovieImageView.xib in Resources */,
 				1F8799BA230B32E4005C4367 /* CardMovieVerticalView.xib in Resources */,
 				1F6262F42304830500CE5E70 /* Assets.xcassets in Resources */,
 				19347AA223073553007E36CD /* PopularMoviesView.xib in Resources */,
-				1F6262EF2304830400CE5E70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +459,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4DFB48C21ADFA5B508EC9065 /* [CP] Check Pods Manifest.lock */ = {
+		315C282CB76739444648996A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		816DC89CF78D807936F2C2D9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -479,23 +505,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F03DA5B0814ADA003330340E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -564,27 +573,6 @@
 			targetProxy = 1F6263092304830600CE5E70 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1F6262ED2304830400CE5E70 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F6262EE2304830400CE5E70 /* Base */,
-			);
-			name = Main.storyboard;
-			path = Views;
-			sourceTree = "<group>";
-		};
-		1F6262F52304830500CE5E70 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F6262F62304830500CE5E70 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = Views;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1F62630F2304830600CE5E70 /* Debug */ = {
@@ -705,7 +693,7 @@
 		};
 		1F6263122304830600CE5E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A94E81EBAB856641A5983D1 /* Pods-RESwiftChallenge.debug.xcconfig */;
+			baseConfigurationReference = 8683A5FD498568B9D0AC30C3 /* Pods-RESwiftChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -725,7 +713,7 @@
 		};
 		1F6263132304830600CE5E70 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E43C0CA9E207D73FA4CF22BF /* Pods-RESwiftChallenge.release.xcconfig */;
+			baseConfigurationReference = 5070C31C7698AE6C3D66C949 /* Pods-RESwiftChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

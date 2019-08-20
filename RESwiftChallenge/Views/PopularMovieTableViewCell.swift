@@ -12,7 +12,8 @@ class PopularMovieTableViewCell: UITableViewCell {
 
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var descriptionText: UITextView!
-    @IBOutlet weak var rating: UILabel!
+    @IBOutlet weak var movieImage: MovieImageView!
+    @IBOutlet weak var rating: StarView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
