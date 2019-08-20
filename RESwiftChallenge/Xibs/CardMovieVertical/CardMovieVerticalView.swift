@@ -20,6 +20,7 @@ class CardMovieVerticalView: UIView {
     
     @IBOutlet var view: UIView!
     @IBOutlet weak var movieImageView: MovieImageView!
+    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var starView: StarView!
     
     override init(frame: CGRect) {
@@ -39,7 +40,7 @@ class CardMovieVerticalView: UIView {
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         setImage("https://image.tmdb.org/t/p/w1280/z9S39hH4IOX9Hmtn3zho3Wdqem8.jpg")
         setTitle("Teste")
-        isFavourite(true)
+        isFavorite(false)
         setRating("0,0")
         
         addSubview(view)
@@ -50,10 +51,10 @@ class CardMovieVerticalView: UIView {
     }
     
     func setTitle(_ title: String!) {
-        movieImageView.setImage(url: "https://image.tmdb.org/t/p/w1280/z9S39hH4IOX9Hmtn3zho3Wdqem8.jpg")
+        titleLabel.text = title
     }
     
-    func isFavourite(_ state: Bool) {
+    func isFavorite(_ state: Bool) {
         starView.isFavorite(state)
     }
     

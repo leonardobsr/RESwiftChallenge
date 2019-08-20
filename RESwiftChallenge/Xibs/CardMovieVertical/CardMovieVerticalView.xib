@@ -14,6 +14,7 @@
             <connections>
                 <outlet property="movieImageView" destination="a3x-6Y-W1h" id="mEN-pE-qj2"/>
                 <outlet property="starView" destination="ENc-WH-2Dl" id="7eV-ga-xDk"/>
+                <outlet property="titleLabel" destination="SLB-Wy-ape" id="ZwH-tO-AVr"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Kzc-p8-ATF"/>
             </connections>
         </placeholder>
@@ -22,25 +23,35 @@
             <rect key="frame" x="0.0" y="0.0" width="210" height="312"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a3x-6Y-W1h" customClass="MovieImageView" customModule="RESwiftChallenge" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="0.0" width="210" height="208"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a3x-6Y-W1h" customClass="MovieImageView" customModule="RESwiftChallenge" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="210" height="241"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLB-Wy-ape">
-                    <rect key="frame" x="65" y="216" width="42" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ENc-WH-2Dl" customClass="StarView" customModule="RESwiftChallenge" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="281" width="210" height="31"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLB-Wy-ape">
+                    <rect key="frame" x="0.0" y="251" width="210" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ENc-WH-2Dl" customClass="StarView" customModule="RESwiftChallenge" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="245" width="210" height="67"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="SLB-Wy-ape" secondAttribute="bottom" constant="6" id="5ru-h3-5Ct"/>
+                <constraint firstItem="ENc-WH-2Dl" firstAttribute="top" secondItem="SLB-Wy-ape" secondAttribute="bottom" constant="9" id="95s-24-MT2"/>
+                <constraint firstItem="ENc-WH-2Dl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GnJ-7g-Tn0"/>
+                <constraint firstAttribute="bottom" secondItem="ENc-WH-2Dl" secondAttribute="bottom" id="HD9-w3-5Dq"/>
+                <constraint firstItem="SLB-Wy-ape" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="JMW-Qr-X5a"/>
+                <constraint firstItem="a3x-6Y-W1h" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Syh-kM-r64"/>
+                <constraint firstItem="SLB-Wy-ape" firstAttribute="top" secondItem="a3x-6Y-W1h" secondAttribute="bottom" constant="10" id="Umf-u0-kVr"/>
+                <constraint firstAttribute="trailing" secondItem="ENc-WH-2Dl" secondAttribute="trailing" id="hEO-h9-iAP"/>
+                <constraint firstItem="a3x-6Y-W1h" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ifh-NM-YFE"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="SLB-Wy-ape" secondAttribute="trailing" id="k0n-E5-18A"/>
+                <constraint firstItem="a3x-6Y-W1h" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="lDQ-kt-N6c"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="-97.101449275362327" y="-160.04464285714286"/>
