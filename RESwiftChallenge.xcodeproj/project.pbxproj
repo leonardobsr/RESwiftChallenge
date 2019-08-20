@@ -22,6 +22,8 @@
 		1F6263022304830600CE5E70 /* RESwiftChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6263012304830600CE5E70 /* RESwiftChallengeTests.swift */; };
 		1F62630D2304830600CE5E70 /* RESwiftChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F62630C2304830600CE5E70 /* RESwiftChallengeUITests.swift */; };
 		1F8799B7230B2CC7005C4367 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8799B6230B2CC7005C4367 /* Movie.swift */; };
+		1F8799BA230B32E4005C4367 /* CardMovieVerticalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F8799B9230B32E4005C4367 /* CardMovieVerticalView.xib */; };
+		1F8799BC230B32FF005C4367 /* CardMovieVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8799BB230B32FF005C4367 /* CardMovieVerticalView.swift */; };
 		1F96AB392305EFDB00D43605 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96AB382305EFDB00D43605 /* API.swift */; };
 		1F96AB3B2305F04400D43605 /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96AB3A2305F04400D43605 /* CodableExtension.swift */; };
 		1F96AB3D2305F0B500D43605 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96AB3C2305F0B500D43605 /* Tools.swift */; };
@@ -74,6 +76,8 @@
 		1F8799AD230B2990005C4367 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8799AF230B2997005C4367 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8799B6230B2CC7005C4367 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		1F8799B9230B32E4005C4367 /* CardMovieVerticalView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardMovieVerticalView.xib; sourceTree = "<group>"; };
+		1F8799BB230B32FF005C4367 /* CardMovieVerticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMovieVerticalView.swift; sourceTree = "<group>"; };
 		1F96AB382305EFDB00D43605 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		1F96AB3A2305F04400D43605 /* CodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
 		1F96AB3C2305F0B500D43605 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
@@ -216,6 +220,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		1F8799B8230B32C5005C4367 /* CardMovieVertical */ = {
+			isa = PBXGroup;
+			children = (
+				1F8799B9230B32E4005C4367 /* CardMovieVerticalView.xib */,
+				1F8799BB230B32FF005C4367 /* CardMovieVerticalView.swift */,
+			);
+			path = CardMovieVertical;
+			sourceTree = "<group>";
+		};
 		1F96AB372305EFC500D43605 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +242,7 @@
 		1F9DC3E423071CF3009A79D8 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
+				1F8799B8230B32C5005C4367 /* CardMovieVertical */,
 				1FA7EE05230743D500BF90C2 /* Star */,
 				1F9DC3E523071D09009A79D8 /* MovieImage */,
 			);
@@ -371,6 +385,7 @@
 				1FA7EE07230743F000BF90C2 /* StarView.xib in Resources */,
 				1F6262F72304830500CE5E70 /* LaunchScreen.storyboard in Resources */,
 				1F9DC3E723071D86009A79D8 /* MovieImageView.xib in Resources */,
+				1F8799BA230B32E4005C4367 /* CardMovieVerticalView.xib in Resources */,
 				1F6262F42304830500CE5E70 /* Assets.xcassets in Resources */,
 				1F6262EF2304830400CE5E70 /* Main.storyboard in Resources */,
 			);
@@ -453,6 +468,7 @@
 				1FA7EE092307440700BF90C2 /* StarView.swift in Sources */,
 				19FF3E932305ECDB00B31285 /* RoutingReducer.swift in Sources */,
 				1F96AB3D2305F0B500D43605 /* Tools.swift in Sources */,
+				1F8799BC230B32FF005C4367 /* CardMovieVerticalView.swift in Sources */,
 				1F6262F22304830400CE5E70 /* RESwiftChallenge.xcdatamodeld in Sources */,
 				1F96AB392305EFDB00D43605 /* API.swift in Sources */,
 			);

@@ -38,32 +38,28 @@ extension UIImageView {
 // MARK: - JSON Struct
 public typealias JSON = [String : Any]
 
-public protocol MyDecodable {
-    init?(json: JSON)
-    
-}
 public protocol JSONEncodable {
     func convertToDict() -> JSON?
     
 }
 
-public extension Array where Element: MyDecodable {
-    static func from(jsonArray: [JSON]) -> [Element]? {
-        var models: [Element] = []
-        
-        for json in jsonArray {
-            let model = Element(json: json)
-            
-            if let model = model {
-                models.append(model)
-            } else {
-                return nil
-            }
-        }
-        
-        return models
-    }
-}
+//public extension Array where Element: MyDecodable {
+//    static func from(jsonArray: [JSON]) -> [Element]? {
+//        var models: [Element] = []
+//        
+//        for json in jsonArray {
+//            let model = Element(json: json)
+//            
+//            if let model = model {
+//                models.append(model)
+//            } else {
+//                return nil
+//            }
+//        }
+//        
+//        return models
+//    }
+//}
 
 public extension Array where Element: JSONEncodable {
     

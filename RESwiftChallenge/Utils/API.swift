@@ -21,7 +21,7 @@ enum API<T: Codable> {
 extension API {
     
     private var url: String {
-        return "https://api.themoviedb.org/" + path + "?api_key=bd376c11b6a9bcd6645d26cc74bfe7c3"
+        return "https://api.themoviedb.org/" + path
     }
     
     private var path: String {
@@ -64,6 +64,10 @@ extension API {
         var url = self.url
         var params = self.params
         switch self {
+        case .discover:
+            url += "?api_key=bd376c11b6a9bcd6645d26cc74bfe7c3"
+            url = url.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+            params = nil
         default: break
         }
         //        print(params)
@@ -92,6 +96,8 @@ extension API {
                         } else if let results = result["results"] as? [JSON] {
                             objectData = results
                         }
+                        
+                        print(objectData)
                         
                         guard let obj = try? T.fromDictionary(objectData) else {
                             completion(.failure(nil))
