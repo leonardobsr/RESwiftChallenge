@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -32,7 +32,17 @@
 		1F6262F72304830500CE5E70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6262F52304830500CE5E70 /* LaunchScreen.storyboard */; };
 		1F6263022304830600CE5E70 /* RESwiftChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6263012304830600CE5E70 /* RESwiftChallengeTests.swift */; };
 		1F62630D2304830600CE5E70 /* RESwiftChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F62630C2304830600CE5E70 /* RESwiftChallengeUITests.swift */; };
-		ED4BA30C595276D2C865B07A /* Pods_RESwiftChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AAB701431B4C6613B2B121 /* Pods_RESwiftChallenge.framework */; };
+		1F8799B7230B2CC7005C4367 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8799B6230B2CC7005C4367 /* Movie.swift */; };
+		1F8799BA230B32E4005C4367 /* CardMovieVerticalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F8799B9230B32E4005C4367 /* CardMovieVerticalView.xib */; };
+		1F8799BC230B32FF005C4367 /* CardMovieVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8799BB230B32FF005C4367 /* CardMovieVerticalView.swift */; };
+		1F96AB392305EFDB00D43605 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96AB382305EFDB00D43605 /* API.swift */; };
+		1F96AB3B2305F04400D43605 /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96AB3A2305F04400D43605 /* CodableExtension.swift */; };
+		1F96AB3D2305F0B500D43605 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F96AB3C2305F0B500D43605 /* Tools.swift */; };
+		1F9DC3E723071D86009A79D8 /* MovieImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9DC3E623071D86009A79D8 /* MovieImageView.xib */; };
+		1F9DC3E923071DB6009A79D8 /* MovieImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DC3E823071DB6009A79D8 /* MovieImageView.swift */; };
+		1FA7EE07230743F000BF90C2 /* StarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FA7EE06230743F000BF90C2 /* StarView.xib */; };
+		1FA7EE092307440700BF90C2 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7EE082307440700BF90C2 /* StarView.swift */; };
+		61A0B427214E1B0E54E3B195 /* Pods_RESwiftChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09CBA211EA5EDE02C362C983 /* Pods_RESwiftChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +74,7 @@
 		19B5E0382307402200E86CCA /* CollectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDataSource.swift; sourceTree = "<group>"; };
 		19B5E03B230744F400E86CCA /* FetchPopularMoviesAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FetchPopularMoviesAction.swift; path = RESwiftChallenge/Reducers/FetchPopularMoviesAction.swift; sourceTree = SOURCE_ROOT; };
 		19B5E03D2307451B00E86CCA /* SetPopularMoviesAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetPopularMoviesAction.swift; path = RESwiftChallenge/Reducers/SetPopularMoviesAction.swift; sourceTree = SOURCE_ROOT; };
+		09CBA211EA5EDE02C362C983 /* Pods_RESwiftChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESwiftChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D4172823049A2600D91A18 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		19D4172C23049D4D00D91A18 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		19FF3E8E2305EB9600B31285 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
@@ -84,9 +95,20 @@
 		1F6263082304830600CE5E70 /* RESwiftChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESwiftChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F62630C2304830600CE5E70 /* RESwiftChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESwiftChallengeUITests.swift; sourceTree = "<group>"; };
 		1F62630E2304830600CE5E70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37AAB701431B4C6613B2B121 /* Pods_RESwiftChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESwiftChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BF53964B0E5D7C2A204E049 /* Pods-RESwiftChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		7CF4FC4079F4AC44579864BB /* Pods-RESwiftChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.release.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		1F8799AD230B2990005C4367 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8799AF230B2997005C4367 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F8799B6230B2CC7005C4367 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		1F8799B9230B32E4005C4367 /* CardMovieVerticalView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardMovieVerticalView.xib; sourceTree = "<group>"; };
+		1F8799BB230B32FF005C4367 /* CardMovieVerticalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMovieVerticalView.swift; sourceTree = "<group>"; };
+		1F96AB382305EFDB00D43605 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		1F96AB3A2305F04400D43605 /* CodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
+		1F96AB3C2305F0B500D43605 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		1F9DC3E623071D86009A79D8 /* MovieImageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieImageView.xib; sourceTree = "<group>"; };
+		1F9DC3E823071DB6009A79D8 /* MovieImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieImageView.swift; sourceTree = "<group>"; };
+		1FA7EE06230743F000BF90C2 /* StarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarView.xib; sourceTree = "<group>"; };
+		1FA7EE082307440700BF90C2 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		8A94E81EBAB856641A5983D1 /* Pods-RESwiftChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		E43C0CA9E207D73FA4CF22BF /* Pods-RESwiftChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.release.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED4BA30C595276D2C865B07A /* Pods_RESwiftChallenge.framework in Frameworks */,
+				61A0B427214E1B0E54E3B195 /* Pods_RESwiftChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +193,9 @@
 		1D44C4C268C5905272A3F201 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				37AAB701431B4C6613B2B121 /* Pods_RESwiftChallenge.framework */,
+				1F8799AF230B2997005C4367 /* Kingfisher.framework */,
+				1F8799AD230B2990005C4367 /* Alamofire.framework */,
+				09CBA211EA5EDE02C362C983 /* Pods_RESwiftChallenge.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,6 +227,9 @@
 			children = (
 				19B5E0362307400F00E86CCA /* DataSource */,
 				1955B54C23071ABC003BBD9B /* Views */,
+				1F8799B5230B2CAA005C4367 /* Models */,
+				1F9DC3E423071CF3009A79D8 /* Xibs */,
+				1F96AB372305EFC500D43605 /* Utils */,
 				19D4172E23049D9D00D91A18 /* Actions */,
 				19D4172B23049D4100D91A18 /* State */,
 				19D4172A23049CA800D91A18 /* Reducers */,
@@ -234,11 +261,66 @@
 			path = RESwiftChallengeUITests;
 			sourceTree = "<group>";
 		};
+		1F8799B5230B2CAA005C4367 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F8799B6230B2CC7005C4367 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F8799B8230B32C5005C4367 /* CardMovieVertical */ = {
+			isa = PBXGroup;
+			children = (
+				1F8799B9230B32E4005C4367 /* CardMovieVerticalView.xib */,
+				1F8799BB230B32FF005C4367 /* CardMovieVerticalView.swift */,
+			);
+			path = CardMovieVertical;
+			sourceTree = "<group>";
+		};
+		1F96AB372305EFC500D43605 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1F96AB382305EFDB00D43605 /* API.swift */,
+				1F96AB3A2305F04400D43605 /* CodableExtension.swift */,
+				1F96AB3C2305F0B500D43605 /* Tools.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1F9DC3E423071CF3009A79D8 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				1F8799B8230B32C5005C4367 /* CardMovieVertical */,
+				1FA7EE05230743D500BF90C2 /* Star */,
+				1F9DC3E523071D09009A79D8 /* MovieImage */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		1F9DC3E523071D09009A79D8 /* MovieImage */ = {
+			isa = PBXGroup;
+			children = (
+				1F9DC3E623071D86009A79D8 /* MovieImageView.xib */,
+				1F9DC3E823071DB6009A79D8 /* MovieImageView.swift */,
+			);
+			path = MovieImage;
+			sourceTree = "<group>";
+		};
+		1FA7EE05230743D500BF90C2 /* Star */ = {
+			isa = PBXGroup;
+			children = (
+				1FA7EE06230743F000BF90C2 /* StarView.xib */,
+				1FA7EE082307440700BF90C2 /* StarView.swift */,
+			);
+			path = Star;
+			sourceTree = "<group>";
+		};
 		DCAAC5CB853E0C5E50F0E130 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5BF53964B0E5D7C2A204E049 /* Pods-RESwiftChallenge.debug.xcconfig */,
-				7CF4FC4079F4AC44579864BB /* Pods-RESwiftChallenge.release.xcconfig */,
+				8A94E81EBAB856641A5983D1 /* Pods-RESwiftChallenge.debug.xcconfig */,
+				E43C0CA9E207D73FA4CF22BF /* Pods-RESwiftChallenge.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -350,7 +432,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				19347AA023073119007E36CD /* PopularMovieTableViewCell.xib in Resources */,
+				1FA7EE07230743F000BF90C2 /* StarView.xib in Resources */,
 				1F6262F72304830500CE5E70 /* LaunchScreen.storyboard in Resources */,
+				1F9DC3E723071D86009A79D8 /* MovieImageView.xib in Resources */,
+				1F8799BA230B32E4005C4367 /* CardMovieVerticalView.xib in Resources */,
 				1F6262F42304830500CE5E70 /* Assets.xcassets in Resources */,
 				19347AA223073553007E36CD /* PopularMoviesView.xib in Resources */,
 				1F6262EF2304830400CE5E70 /* Main.storyboard in Resources */,
@@ -402,16 +487,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -426,9 +506,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F6262EC2304830400CE5E70 /* ListViewController.swift in Sources */,
+				1F9DC3E923071DB6009A79D8 /* MovieImageView.swift in Sources */,
+				1F96AB3B2305F04400D43605 /* CodableExtension.swift in Sources */,
+				1F6262EC2304830400CE5E70 /* ListViewController.swift in Sources */,
 				1F521AF42304A4A8002D678B /* AppAction.swift in Sources */,
 				19347AA4230735B1007E36CD /* PopularMoviesView.swift in Sources */,
 				19D4172D23049D4D00D91A18 /* AppState.swift in Sources */,
+				1F8799B7230B2CC7005C4367 /* Movie.swift in Sources */,
 				1F6262EA2304830400CE5E70 /* AppDelegate.swift in Sources */,
 				19B5E03E2307451B00E86CCA /* SetPopularMoviesAction.swift in Sources */,
 				19FF3E8F2305EB9600B31285 /* AppRouter.swift in Sources */,
@@ -437,12 +521,16 @@
 				19B5E0392307402200E86CCA /* TableDataSource.swift in Sources */,
 				192A9242230B2D0100086FB8 /* SetPopularMoviesFailedAction.swift in Sources */,
 				19FF3E912305EC2700B31285 /* RoutingState.swift in Sources */,
+				1FA7EE092307440700BF90C2 /* StarView.swift in Sources */,
 				19FF3E932305ECDB00B31285 /* RoutingReducer.swift in Sources */,
 				19347A9F23073119007E36CD /* PopularMovieTableViewCell.swift in Sources */,
 				19347AA623073E01007E36CD /* PopularMoviesState.swift in Sources */,
 				1F6262F22304830400CE5E70 /* RESwiftChallenge.xcdatamodeld in Sources */,
 				19347AA823073E36007E36CD /* PopularMoviesReducer.swift in Sources */,
 				19B5E03A2307402200E86CCA /* CollectionDataSource.swift in Sources */,
+				1F96AB3D2305F0B500D43605 /* Tools.swift in Sources */,
+				1F8799BC230B32FF005C4367 /* CardMovieVerticalView.swift in Sources */,
+				1F96AB392305EFDB00D43605 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +572,7 @@
 				1F6262EE2304830400CE5E70 /* Base */,
 			);
 			name = Main.storyboard;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		1F6262F52304830500CE5E70 /* LaunchScreen.storyboard */ = {
@@ -492,6 +581,7 @@
 				1F6262F62304830500CE5E70 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -615,7 +705,7 @@
 		};
 		1F6263122304830600CE5E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BF53964B0E5D7C2A204E049 /* Pods-RESwiftChallenge.debug.xcconfig */;
+			baseConfigurationReference = 8A94E81EBAB856641A5983D1 /* Pods-RESwiftChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -635,7 +725,7 @@
 		};
 		1F6263132304830600CE5E70 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CF4FC4079F4AC44579864BB /* Pods-RESwiftChallenge.release.xcconfig */;
+			baseConfigurationReference = E43C0CA9E207D73FA4CF22BF /* Pods-RESwiftChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
