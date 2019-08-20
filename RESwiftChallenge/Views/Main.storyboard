@@ -10,16 +10,31 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--List View Controller-->
         <scene sceneID="Aan-9G-8EE">
             <objects>
-                <viewController id="8aa-Kf-Tl1" sceneMemberID="viewController">
+                <viewController id="8aa-Kf-Tl1" customClass="ListViewController" customModule="RESwiftChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sGi-wV-AJR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kB5-ss-Jkd" customClass="ErrorView" customModule="RESwiftChallenge" customModuleProvider="target">
+                                <rect key="frame" x="87" y="252" width="240" height="444"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kB5-ss-Jkd" firstAttribute="leading" secondItem="8oy-c2-dWR" secondAttribute="leading" constant="87" id="7dY-ch-IPm"/>
+                            <constraint firstItem="kB5-ss-Jkd" firstAttribute="centerX" secondItem="sGi-wV-AJR" secondAttribute="centerX" id="8iE-BO-GkF"/>
+                            <constraint firstItem="kB5-ss-Jkd" firstAttribute="top" secondItem="8oy-c2-dWR" secondAttribute="top" constant="208" id="DAm-Pn-V7e"/>
+                            <constraint firstItem="kB5-ss-Jkd" firstAttribute="centerY" secondItem="sGi-wV-AJR" secondAttribute="centerY" constant="26" id="U9C-lU-t4r"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="8oy-c2-dWR"/>
                     </view>
+                    <connections>
+                        <outlet property="errorView" destination="kB5-ss-Jkd" id="VSK-om-oV9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="79P-uC-UJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -14,7 +14,6 @@
             <connections>
                 <outlet property="button" destination="qC7-e7-Teg" id="URp-4B-FHw"/>
                 <outlet property="descLabel" destination="89r-JS-KGO" id="sqm-Dj-2XS"/>
-                <outlet property="description" destination="89r-JS-KGO" id="JCG-LF-2Sv"/>
                 <outlet property="image" destination="MYg-d8-Oxc" id="ue4-YT-5t4"/>
                 <outlet property="title" destination="2qd-lh-Dnd" id="NHY-Ak-dVX"/>
                 <outlet property="view" destination="iN0-l3-epB" id="DOB-ts-bCd"/>
