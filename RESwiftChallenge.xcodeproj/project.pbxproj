@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06ED7ED55706E0B8BB250A8B /* Pods_RESwiftChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D35333FBDF1BFA9B1E31D3C /* Pods_RESwiftChallenge.framework */; };
 		192A9242230B2D0100086FB8 /* SetPopularMoviesFailedAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192A9241230B2D0100086FB8 /* SetPopularMoviesFailedAction.swift */; };
 		19347A9F23073119007E36CD /* PopularMovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19347A9D23073119007E36CD /* PopularMovieTableViewCell.swift */; };
 		19347AA023073119007E36CD /* PopularMovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19347A9E23073119007E36CD /* PopularMovieTableViewCell.xib */; };
@@ -53,7 +54,6 @@
 		1F9DC3E923071DB6009A79D8 /* MovieImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DC3E823071DB6009A79D8 /* MovieImageView.swift */; };
 		1FA7EE07230743F000BF90C2 /* StarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FA7EE06230743F000BF90C2 /* StarView.xib */; };
 		1FA7EE092307440700BF90C2 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7EE082307440700BF90C2 /* StarView.swift */; };
-		9F996F3E2D5C2CE78E207553 /* Pods_RESwiftChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82C7477D26DAA9AE5EF7F3F /* Pods_RESwiftChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07FECBAAF2A6789607C1FBCA /* Pods-RESwiftChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		192A9241230B2D0100086FB8 /* SetPopularMoviesFailedAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SetPopularMoviesFailedAction.swift; path = RESwiftChallenge/Reducers/SetPopularMoviesFailedAction.swift; sourceTree = SOURCE_ROOT; };
 		19347A9D23073119007E36CD /* PopularMovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieTableViewCell.swift; sourceTree = "<group>"; };
 		19347A9E23073119007E36CD /* PopularMovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularMovieTableViewCell.xib; sourceTree = "<group>"; };
@@ -128,9 +129,8 @@
 		1F9DC3E823071DB6009A79D8 /* MovieImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieImageView.swift; sourceTree = "<group>"; };
 		1FA7EE06230743F000BF90C2 /* StarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarView.xib; sourceTree = "<group>"; };
 		1FA7EE082307440700BF90C2 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
-		5070C31C7698AE6C3D66C949 /* Pods-RESwiftChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.release.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.release.xcconfig"; sourceTree = "<group>"; };
-		8683A5FD498568B9D0AC30C3 /* Pods-RESwiftChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.debug.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.debug.xcconfig"; sourceTree = "<group>"; };
-		F82C7477D26DAA9AE5EF7F3F /* Pods_RESwiftChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESwiftChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D35333FBDF1BFA9B1E31D3C /* Pods_RESwiftChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESwiftChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF105CEBD6E45408F3F74543 /* Pods-RESwiftChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESwiftChallenge.release.xcconfig"; path = "Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F996F3E2D5C2CE78E207553 /* Pods_RESwiftChallenge.framework in Frameworks */,
+				06ED7ED55706E0B8BB250A8B /* Pods_RESwiftChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +222,7 @@
 			children = (
 				1F8799AF230B2997005C4367 /* Kingfisher.framework */,
 				1F8799AD230B2990005C4367 /* Alamofire.framework */,
-				F82C7477D26DAA9AE5EF7F3F /* Pods_RESwiftChallenge.framework */,
+				4D35333FBDF1BFA9B1E31D3C /* Pods_RESwiftChallenge.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -368,8 +368,8 @@
 		DCAAC5CB853E0C5E50F0E130 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8683A5FD498568B9D0AC30C3 /* Pods-RESwiftChallenge.debug.xcconfig */,
-				5070C31C7698AE6C3D66C949 /* Pods-RESwiftChallenge.release.xcconfig */,
+				07FECBAAF2A6789607C1FBCA /* Pods-RESwiftChallenge.debug.xcconfig */,
+				EF105CEBD6E45408F3F74543 /* Pods-RESwiftChallenge.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -381,11 +381,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F6263112304830600CE5E70 /* Build configuration list for PBXNativeTarget "RESwiftChallenge" */;
 			buildPhases = (
-				816DC89CF78D807936F2C2D9 /* [CP] Check Pods Manifest.lock */,
+				CB2CA895BA631810A1C76165 /* [CP] Check Pods Manifest.lock */,
 				1F6262E22304830400CE5E70 /* Sources */,
 				1F6262E32304830400CE5E70 /* Frameworks */,
 				1F6262E42304830400CE5E70 /* Resources */,
-				315C282CB76739444648996A /* [CP] Embed Pods Frameworks */,
+				09730631A2F3B5E635ADA868 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -511,24 +511,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		315C282CB76739444648996A /* [CP] Embed Pods Frameworks */ = {
+		09730631A2F3B5E635ADA868 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ReSwift/ReSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RESwiftChallenge/Pods-RESwiftChallenge-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		816DC89CF78D807936F2C2D9 /* [CP] Check Pods Manifest.lock */ = {
+		CB2CA895BA631810A1C76165 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -744,7 +753,7 @@
 		};
 		1F6263122304830600CE5E70 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8683A5FD498568B9D0AC30C3 /* Pods-RESwiftChallenge.debug.xcconfig */;
+			baseConfigurationReference = 07FECBAAF2A6789607C1FBCA /* Pods-RESwiftChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -764,7 +773,7 @@
 		};
 		1F6263132304830600CE5E70 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5070C31C7698AE6C3D66C949 /* Pods-RESwiftChallenge.release.xcconfig */;
+			baseConfigurationReference = EF105CEBD6E45408F3F74543 /* Pods-RESwiftChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
