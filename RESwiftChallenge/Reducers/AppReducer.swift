@@ -12,6 +12,7 @@ import ReSwift
 func AppReducer(action: Action, state: AppState?) -> AppState {
     return AppState(
         routingState: routingReducer(action: action, state: state?.routingState),
-        popularMoviesState: popularMoviesReducer(action: action, state: state?.popularMoviesState)
+        popularMoviesState: popularMoviesReducer(action: action, state: state?.popularMoviesState),
+        nowPlayingMoviesState: nowPlayingMoviesReducer(action: action, state: state?.nowPlayingMoviesState)
     )
 }

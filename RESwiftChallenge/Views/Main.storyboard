@@ -17,7 +17,28 @@
                     <view key="view" contentMode="scaleToFill" id="sGi-wV-AJR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xkF-xV-f2S">
+                                <rect key="frame" x="15" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pqc-od-r4s">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="409"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o1w-S7-8xY" customClass="PopularMoviesView" customModule="RESwiftChallenge" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="409" width="414" height="409"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xkF-xV-f2S" firstAttribute="top" secondItem="8oy-c2-dWR" secondAttribute="top" id="4Hs-ZO-39D"/>
+                            <constraint firstItem="xkF-xV-f2S" firstAttribute="leading" secondItem="8oy-c2-dWR" secondAttribute="leading" constant="15" id="CNl-pa-65c"/>
+                            <constraint firstItem="xkF-xV-f2S" firstAttribute="trailing" secondItem="8oy-c2-dWR" secondAttribute="trailing" constant="15" id="Z4u-hj-wm4"/>
+                            <constraint firstItem="8oy-c2-dWR" firstAttribute="bottom" secondItem="xkF-xV-f2S" secondAttribute="bottom" id="yx2-8B-9qj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="8oy-c2-dWR"/>
                     </view>
                 </viewController>

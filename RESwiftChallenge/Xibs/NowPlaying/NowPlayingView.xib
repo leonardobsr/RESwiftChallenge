@@ -12,9 +12,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NowPlayingView" customModule="RESwiftChallenge" customModuleProvider="target">
             <connections>
-                <outlet property="cardMovieVerticalView" destination="gUs-CX-59f" id="T46-Yd-ydP"/>
+                <outlet property="collectionView" destination="T8h-HW-z9o" id="O4d-kH-gui"/>
                 <outlet property="nowPlayingLabel" destination="t9x-UI-dJr" id="nGa-tV-xa6"/>
-                <outlet property="scrollView" destination="6rp-Z5-lzd" id="ZJ9-O8-Zhg"/>
                 <outlet property="seeAllButton" destination="NnH-6N-nLU" id="a0x-B3-G3W"/>
                 <outlet property="view" destination="iN0-l3-epB" id="tc3-HR-V3N"/>
             </connections>
@@ -35,25 +34,6 @@
                     </attributedString>
                     <nil key="highlightedColor"/>
                 </label>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rp-Z5-lzd">
-                    <rect key="frame" x="15" y="60" width="461" height="252"/>
-                    <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gUs-CX-59f">
-                            <rect key="frame" x="0.0" y="0.0" width="130" height="252"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="130" id="FM9-hN-dsd"/>
-                                <constraint firstAttribute="height" constant="252" id="tV3-gp-LtS"/>
-                            </constraints>
-                        </view>
-                    </subviews>
-                    <constraints>
-                        <constraint firstItem="gUs-CX-59f" firstAttribute="top" secondItem="6rp-Z5-lzd" secondAttribute="top" id="5nA-46-0Hh"/>
-                        <constraint firstAttribute="trailing" secondItem="gUs-CX-59f" secondAttribute="trailing" constant="331" id="6eV-xi-2VH"/>
-                        <constraint firstItem="gUs-CX-59f" firstAttribute="leading" secondItem="6rp-Z5-lzd" secondAttribute="leading" id="E9X-BP-2Fb"/>
-                        <constraint firstAttribute="bottom" secondItem="gUs-CX-59f" secondAttribute="bottom" id="TdZ-KE-UmT"/>
-                    </constraints>
-                </scrollView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NnH-6N-nLU">
                     <rect key="frame" x="417" y="21" width="44" height="28.5"/>
                     <state key="normal">
@@ -67,15 +47,25 @@
                         </attributedString>
                     </state>
                 </button>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="T8h-HW-z9o">
+                    <rect key="frame" x="15" y="66" width="461" height="246"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="PKQ-fL-Anr">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="6rp-Z5-lzd" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="QRX-xq-jLD"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6rp-Z5-lzd" secondAttribute="trailing" id="Vy5-qy-U5D"/>
+                <constraint firstItem="T8h-HW-z9o" firstAttribute="top" secondItem="t9x-UI-dJr" secondAttribute="bottom" constant="20" id="1gs-wL-idU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="T8h-HW-z9o" secondAttribute="bottom" id="EtJ-Cc-Bm2"/>
+                <constraint firstItem="T8h-HW-z9o" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="FRk-Hq-UDL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="T8h-HW-z9o" secondAttribute="trailing" id="PoT-YE-jjc"/>
                 <constraint firstItem="NnH-6N-nLU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="21" id="WBw-2X-LNx"/>
-                <constraint firstItem="6rp-Z5-lzd" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="Z7j-lV-G4H"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="NnH-6N-nLU" secondAttribute="trailing" constant="15" id="aNB-gx-euU"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="6rp-Z5-lzd" secondAttribute="bottom" id="d6F-aD-IpE"/>
                 <constraint firstItem="t9x-UI-dJr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="14" id="oLJ-4e-G51"/>
                 <constraint firstItem="t9x-UI-dJr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="26" id="rzP-b0-3OU"/>
             </constraints>

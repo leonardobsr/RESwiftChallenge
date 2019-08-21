@@ -11,4 +11,5 @@ import ReSwift
 struct AppState: StateType {
     let routingState: RoutingState
     let popularMoviesState: PopularMoviesState
+    let nowPlayingMoviesState: NowPlayingMoviesState
 }

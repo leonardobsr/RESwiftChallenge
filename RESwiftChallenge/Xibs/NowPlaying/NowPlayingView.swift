@@ -21,8 +21,7 @@ class NowPlayingView: UIView {
     @IBOutlet var view: UIView!
     @IBOutlet weak var nowPlayingLabel: UILabel!
     @IBOutlet weak var seeAllButton: UIButton!
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var cardMovieVerticalView: UIView!
+    @IBOutlet weak var collectionView: UICollectionView!
     
     override init(frame: CGRect) {
         super.init(frame: frame)
