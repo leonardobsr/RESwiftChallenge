@@ -13,7 +13,7 @@ func nowPlayingMoviesReducer(action: Action, state: NowPlayingMoviesState?) -> N
     
     switch action {
     case _ as FetchNowPlayingMoviesAction:
-        fetchPopularMovies()
+        fetchNowPlayingMovies()
         break
     case let action as SetNowPlayingMoviesAction:
         return NowPlayingMoviesState(movies: Result.success(action.movies))
@@ -27,7 +27,7 @@ func nowPlayingMoviesReducer(action: Action, state: NowPlayingMoviesState?) -> N
 }
 
 func fetchNowPlayingMovies() {
-    API<[Movie]>.discover(params: "3/discover/movie/now_playing.desc").request { [] result in
+    API<[Movie]>.discover(params: "3/discover/movie?sort_by=release_date").request { [] result in
         print(result)
         guard case .success(let movies) = result else {
             mainStore.dispatch(SetNowPlayingMoviesFailedAction())

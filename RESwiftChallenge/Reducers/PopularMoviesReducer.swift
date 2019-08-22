@@ -27,7 +27,7 @@ func popularMoviesReducer(action: Action, state: PopularMoviesState?) -> Popular
 }
 
 func fetchPopularMovies() {
-    API<[Movie]>.discover(params: "3/discover/movie?sort_by=popularity.desc").request { [] result in
+    API<[Movie]>.discover(params: "3/discover/movie?sort_by=popularity").request { [] result in
         print(result)
         guard case .success(let movies) = result else {
             mainStore.dispatch(SetPopularMoviesFailedAction())

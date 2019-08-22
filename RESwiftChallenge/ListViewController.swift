@@ -15,7 +15,7 @@ class ListViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        errorView.setError(typeError: "em")
+        //errorView.setError(typeError: "em")
     }
 
 

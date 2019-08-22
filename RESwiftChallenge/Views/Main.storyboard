@@ -21,7 +21,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xkF-xV-f2S">
                                 <rect key="frame" x="15" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pqc-od-r4s">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pqc-od-r4s" customClass="NowPlayingView" customModule="RESwiftChallenge" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="409"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
@@ -41,9 +41,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8oy-c2-dWR"/>
                     </view>
-                    <connections>
-                        <outlet property="errorView" destination="kB5-ss-Jkd" id="VSK-om-oV9"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="79P-uC-UJr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
